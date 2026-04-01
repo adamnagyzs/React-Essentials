@@ -5,7 +5,7 @@ import CoreConcept from "./components/CoreConcept.jsx";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <section id="core-concepts">
@@ -18,7 +18,7 @@ function App() {
         </section>
         <Examples />
       </main>
-    </div>
+    </>
   );
 }
 
